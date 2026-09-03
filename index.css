@@ -551,9 +551,10 @@
         margin-bottom: .5rem;
     }
 
-    .wal3 img {
-        height: 30px;
+    .wal32 img {
+        height: auto;
         width: 600px;
+        max-width: 100%;
     }
 
     .er {
@@ -751,7 +752,7 @@
             text-align: center;
         }
 
-        .wal3 img {
+        .wal32 img {
             width: 100%;
             max-width: 400px;
             height: auto;
