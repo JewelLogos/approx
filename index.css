@@ -517,7 +517,7 @@
         flex-direction: row;
         background: #000000;
         padding: 3rem;
-        gap: 2rem;
+        gap: 8rem;
         justify-content: space-between;
     }
 
@@ -559,6 +559,128 @@
 
     .er {
         margin: 1rem;
+    }
+
+    .p {
+        background-color: #fdf9f9;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .heead-txt {
+        gap: 1rem;
+        margin-top: 5rem;
+    }
+
+    .heead-txt h1 {
+        color: #000000;
+        font-size: 3.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .heead-txt p {
+        color: #2454e8;
+        font-size: .6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .wal20 {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem;
+        margin-top: 5rem;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .wal200 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .wal211 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .wal211 img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .wal211 h3 {
+        font-weight: 600;
+    }
+
+    .wal211 p {
+        color: #707070;
+        font-size: .65rem;
+        font-weight: 500;
+    }
+
+    .wal31 h1 {
+        color: #ffffff;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    .ny {
+        gap: 2rem;
+    }
+
+    .wal321 {
+        display: grid;
+        gap: 1rem;
+        padding: 1.5rem 0;
+        border-bottom: 1px solid #292929;
+        grid-template-columns: 3.5rem 1fr;
+    }
+
+    .wal321:first-child {
+        padding-top: 0;
+    }
+
+    .wal321:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .wal321 .ny h1 {
+        color: #292929;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .wal321 .ny h3 {
+        font-size: .8rem;
+        color: #ffffff;
+        font-weight: 400;
+        margin-bottom: .6rem;
+    }
+
+    .wal321 .ny p {
+        font-size: .6rem;
+        color: #777777;
+        line-height: 1.45;
+    }
+
+    .wal3 .wal31 h1 {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .wal3 .wal32 {
+        max-width: none;
+        width: 100%;
+        text-align: left;
     }
 
     @media (max-width: 992px) {
